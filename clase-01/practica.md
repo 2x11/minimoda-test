@@ -48,7 +48,8 @@ Formato del título: `Registro: <qué se prueba>`
 Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 
 ### Caso 1: Registro exitoso con datos válidos  
-(Functional- High)
+(Functional - High)
+
 - Precondiciones:  
 1. Acceder a https://minimoda-navy.vercel.app/registro.
 2. El formulario de registro debe estar disponible.
@@ -67,7 +68,6 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 | 7 | Aceptar términos | Marcado |
 | 8 | Presionar Crear cuenta | —  |
 
-
 - Resultado esperado:  
 1. El formulario acepta los datos ingresados.
 2. El registro se procesa correctamente.
@@ -76,20 +76,67 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 
 - Evidencia: `evidencias/qase-MM-4-registro-alta-exitosa.png`
 
-### Caso 2: ___tu respuesta aquí___
-- Precondiciones: ___tu respuesta aquí___
-- Pasos: ___tu respuesta aquí___
-- Resultado esperado: ___tu respuesta aquí___
+
+### Caso 2: Validación de campos obligatorios
+(Negative - High)
+
+- Precondiciones: 
+1. Acceder al formulario de registro.
+2. No completar ningún campo.
+
+- Pasos: 
+
+| Paso | Acción |	Dato |
+|------|--------|------|
+| 1 |	Dejar nombre vacío |	"" |
+| 2	| Dejar email vacío |	"" |
+| 3 |	Dejar contraseña vacía |	"" |
+| 4 |	Dejar confirmación vacía |	"" |
+| 5 |	Dejar edad vacía |	"" |
+| 6	| No seleccionar país	| Sin selección |
+| 7	| No aceptar términos	| Desmarcado |
+| 8 |	Presionar Crear cuenta |	— |
+
+- Resultado esperado: 
+1. El sistema impide completar el registro con los campos obligatorios vacíos.
+2. No debe procesarse el registro.
+3. Se informa qué campos requieren atención.
+4. A VERIFICAR: mensajes de validación exactos y si las validaciones aparecen al enviar o al abandonar cada campo.
+
 - Evidencia: `evidencias/qase-MM-5-registro-password-7.png`
 
-### Caso 3: ___tu respuesta aquí___
-- Precondiciones: ___tu respuesta aquí___
-- Pasos: ___tu respuesta aquí___
-- Resultado esperado: ___tu respuesta aquí___
+
+### Caso 3: Validación de longitud mínima de contraseña
+(Boundary - High)
+- Precondiciones: 
+1. Acceder al formulario de registro.
+2. Completar correctamente los demás campos obligatorios.
+3. Seleccionar un país disponible y aceptar los términos.
+
+- Pasos: 
+Pasos y datos de prueba:
+
+Ejecutar dos escenarios:
+| Escenario |	Contraseña | Cantidad	| Resultado esperado |
+|-----------|------------|----------|--------------------|
+| A |	Qa12345	| 7 |	Rechazar |
+| B	| Qa123456 | 8 |	Aceptar |
+
+Para cada escenario:
+1. Ingresar la contraseña.
+2. Ingresar el mismo valor en confirmar contraseña.
+3. Presionar Crear cuenta.
+4. Observar el comportamiento.
+
+- Resultado esperado: 
+1. Escenario A: el sistema rechaza la contraseña por no alcanzar el mínimo de 8 caracteres.
+2. Escenario B: el sistema acepta la longitud de la contraseña.
+3. A VERIFICAR: mensaje exacto de validación y si existen otras restricciones de complejidad.
+
 - Evidencia: `evidencias/qase-MM-6-registro-edad-12.png`
 
 ## 7. Mapa del harness
-| Pieza | En lo que usé |
+| Pieza | Chat GPT |
 |-------|---------------|
 | Modelo | ___tu respuesta aquí___ |
 | App | ___tu respuesta aquí___ |
