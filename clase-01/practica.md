@@ -47,10 +47,29 @@ Le tire el mismo prompt a Gemini App y si bien ejecuto bastante bien la orden, i
 Formato del título: `Registro: <qué se prueba>`
 Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 
-### Caso 1: ___tu respuesta aquí___
-- Precondiciones: ___tu respuesta aquí___
-- Pasos: ___tu respuesta aquí___
-- Resultado esperado: ___tu respuesta aquí___
+### Caso 1: Registro exitoso con datos válidos  
+(Functional- High)
+- Precondiciones:  
+1. Acceder a https://minimoda-navy.vercel.app/registro.
+2. El formulario de registro debe estar disponible.
+3. No utilizar datos reales.  
+
+-  Pasos	Acción	Dato
+1	Ingresar nombre	Daiana
+2	Ingresar email	daiana.qa@example.com
+3	Ingresar contraseña	QaTest123
+4	Confirmar contraseña	QaTest123
+5	Ingresar edad	30
+6	Seleccionar país	Argentina (si está disponible)
+7	Aceptar términos	Marcado
+8	Presionar Crear cuenta	—  
+
+- Resultado esperado:  
+1. El formulario acepta los datos ingresados.
+2. El registro se procesa correctamente.
+3. Se muestra una confirmación de registro exitoso o una respuesta equivalente.
+4. A VERIFICAR: texto exacto de confirmación y comportamiento posterior al registro.  
+
 - Evidencia: `evidencias/qase-MM-4-registro-alta-exitosa.png`
 
 ### Caso 2: ___tu respuesta aquí___
