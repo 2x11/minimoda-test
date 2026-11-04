@@ -7,8 +7,8 @@
 - Navegador y fecha: Chrome 4/11/2025
 
 ## 2. Superficie elegida
-- Elegí (chat o cowork): Gemini - ChatGPT
-- Por qué: Gemini (Gemini Flash) porque es la viene integrada en el navegador de Chrome por defecto y ChatGPT para preguntar dudas y hacer comparaciones con las respuestas dadas por Gemini.
+- Elegí (chat o cowork): Gemini (extension navegador y App)- ChatGPT
+- Por qué: En lineas generales porque son las que mas conozco. Gemini  porque es la viene integrada en el navegador de Chrome por defecto y me sirve para responder las preguntas del punto 3. ChatGPT para hacer el punto 4 y Gemini App para el punto 5.
 
 ## 3. Preguntas a Gemini
 | # | Pregunta | Respuesta (resumen) | ¿Acierto o error/invento? |
@@ -21,7 +21,7 @@
 - Un error o invento: No detecte ninguno. 
 
 ## 4. Primer modo
-- Superficie y modo: ___tu respuesta aquí___
+- Superficie y modo: ChatGPT
 - Prompt de ejemplo:
   ```
   Sos QA. Vamos a probar el registro de https://minimoda-navy.vercel.app/registro
@@ -33,13 +33,15 @@
   ```
 - Qué devolvió:  
 
+Organizo la tarea de la siguiente forma: 
+- Reglas observables: las que informa la propia aplicación.
+- Datos de prueba: válidos, inválidos y valores límite.
+- Casos de prueba: seis escenarios concretos, con prioridad y tipo.  
 
-
+Cuando falto información sobre una regla o un mensaje, lo identifico como "A VERIFICAR"
 
 ## 5. Otra superficie: comparación en 3 líneas
-1. ___tu respuesta aquí___
-2. ___tu respuesta aquí___
-3. ___tu respuesta aquí___
+Le tire el mismo prompt a Gemini App y si bien ejecuto bastante bien la orden, invento cosas como que el limite de la edad en el formulario de registro era de 18 años e invento valores limites en los campos donde no se especificaban valores como por ejemplo en el campo Nombre me dio: Mín: 1-2 caracteres Máx: 50-100 caracteres.  
 
 ## 6. Mis 3 mejores casos (cargados en Qase, proyecto MiniModa)
 Formato del título: `Registro: <qué se prueba>`
