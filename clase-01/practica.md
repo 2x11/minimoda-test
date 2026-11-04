@@ -54,15 +54,19 @@ Captura de la suite en Qase con tus casos: `evidencias/qase-suite-casos.png`
 2. El formulario de registro debe estar disponible.
 3. No utilizar datos reales.  
 
--  Pasos	Acción	Dato
-1	Ingresar nombre	Daiana
-2	Ingresar email	daiana.qa@example.com
-3	Ingresar contraseña	QaTest123
-4	Confirmar contraseña	QaTest123
-5	Ingresar edad	30
-6	Seleccionar país	Argentina (si está disponible)
-7	Aceptar términos	Marcado
-8	Presionar Crear cuenta	—  
+-  Pasos:
+
+| Pasos | Acción | Dato |
+|-------|--------|------|
+| 1 | Ingresar nombre | Daiana |
+| 2 | Ingresar email | daiana.qa@example.com |
+| 3 |Ingresar contraseña |	QaTest123 |
+| 4 | Confirmar contraseña | QaTest123 |
+| 5 | Ingresar edad | 30 |
+| 6 | Seleccionar país | Argentina (si está disponible) |
+| 7 | Aceptar términos | Marcado |
+| 8 | Presionar Crear cuenta | —  |
+
 
 - Resultado esperado:  
 1. El formulario acepta los datos ingresados.
