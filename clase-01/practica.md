@@ -136,13 +136,13 @@ Para cada escenario:
 - Evidencia: `evidencias/qase-MM-6-registro-edad-12.png`
 
 ## 7. Mapa del harness
-| Pieza | Chat GPT |
-|-------|---------------|
-| Modelo | ___tu respuesta aquí___ |
-| App | ___tu respuesta aquí___ |
-| Harness | ___tu respuesta aquí___ |
-| MCP | ___tu respuesta aquí___ |
-| Skill | ___tu respuesta aquí___ |
+| Pieza | ChatGPT puntos: 4 y 6 |  Gemini Flash puntos: 3 y 5 |
+|-------|--------------------------|-----------------------------------|
+| Modelo | GPT-6 | Gemini Flash |
+| App | ChatGPT| Gemini App - Chat en el navegador |
+| Harness | Ninguno | Ninguno |
+| MCP | Ninguno| Ninguno |
+| Skill | Ninguno| Ninguno |
 
 ## 8. Entrega
-- Link de tu repo (pegalo también en el Telegram): ___tu respuesta aquí___
+- Link de tu repo (pegalo también en el Telegram): https://github.com/2x11/minimoda-test
