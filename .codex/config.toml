@@ -1,0 +1,3 @@
+[mcp_servers.casos-de-prueba]
+command = "node"
+args = ["D:/Academia_ QA/minimoda-test/clase-02-mcp/src/index.js"]
