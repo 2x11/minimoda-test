@@ -1,0 +1,195 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#contenido"
+  - banner [ref=e3]:
+    - paragraph [ref=e4]: Envío gratis desde $80.000 · 3 cuotas sin interés
+    - generic [ref=e5]:
+      - link "miniModa" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - navigation "Principal" [ref=e7]:
+        - link "Inicio" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Tienda" [ref=e9] [cursor=pointer]:
+          - /url: /tienda
+        - link "Créditos" [ref=e10] [cursor=pointer]:
+          - /url: /creditos
+        - link "Registro" [ref=e11] [cursor=pointer]:
+          - /url: /registro
+        - link "Checkout" [ref=e12] [cursor=pointer]:
+          - /url: /checkout
+        - link "Bandeja" [ref=e13] [cursor=pointer]:
+          - /url: /bandeja
+      - generic [ref=e14]:
+        - generic [ref=e15]: Idioma
+        - combobox "Idioma" [ref=e16]:
+          - option "ES" [selected]
+          - option "EN"
+          - option "PT"
+        - button "Activar modo oscuro" [ref=e17] [cursor=pointer]
+        - link "Carrito, 0 productos" [ref=e20] [cursor=pointer]:
+          - /url: /carrito
+          - generic [ref=e24]: "0"
+    - navigation "Edades" [ref=e25]:
+      - generic [ref=e26]:
+        - link "Todo" [ref=e27] [cursor=pointer]:
+          - /url: /tienda
+        - link "Bebé" [ref=e28] [cursor=pointer]:
+          - /url: /tienda?edad=Beb%C3%A9%20(0-2)
+        - link "Niña" [ref=e29] [cursor=pointer]:
+          - /url: /tienda?edad=Ni%C3%B1a%20(3-8)
+        - link "Niño" [ref=e30] [cursor=pointer]:
+          - /url: /tienda?edad=Ni%C3%B1o%20(3-8)
+        - link "Pre-teen" [ref=e31] [cursor=pointer]:
+          - /url: /tienda?edad=Pre-teen%20(9-12)
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "MiniModa, ropa para niños" [level=1] [ref=e36]
+          - paragraph [ref=e37]: Prendas cómodas y divertidas para bebés, niños y pre-teens. Buscá por edad, color y precio, sumá al carrito y comprá en pocos clics.
+          - generic [ref=e38]:
+            - link "Ver la tienda" [ref=e39] [cursor=pointer]:
+              - /url: /tienda
+            - link "Comprá en cuotas" [ref=e40] [cursor=pointer]:
+              - /url: /creditos
+        - img "Prendas de MiniModa en flat lay sobre fondo blanco" [ref=e42]
+      - heading "Destacados" [level=2] [ref=e43]
+      - generic [ref=e44]:
+        - article [ref=e45]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: /producto/1
+            - img "Body Manga Larga Estrellitas" [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Destacado
+            - generic [ref=e51]: Bebé (0-2)
+            - heading [level=3] [ref=e52]:
+              - link "Body Manga Larga Estrellitas" [ref=e53] [cursor=pointer]:
+                - /url: /producto/1
+            - generic [ref=e54]: "Color: Azul · Talla: 6M"
+            - generic [ref=e56]:
+              - paragraph [ref=e57]: $ 10.600 20% menos
+              - generic [ref=e58]: $ 8.500
+              - paragraph [ref=e59]: 3 cuotas sin interés de $ 2.833
+            - link "Ver en la tienda" [ref=e60] [cursor=pointer]:
+              - /url: /tienda
+        - article [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: /producto/4
+            - img "Remera Dino Aventurero" [ref=e64]
+          - generic [ref=e65]:
+            - generic [ref=e66]: Destacado
+            - generic [ref=e67]: Niño (3-8)
+            - heading [level=3] [ref=e68]:
+              - link "Remera Dino Aventurero" [ref=e69] [cursor=pointer]:
+                - /url: /producto/4
+            - generic [ref=e70]: "Color: Verde · Talla: 4"
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: $ 12.300 20% menos
+              - generic [ref=e74]: $ 9.800
+              - paragraph [ref=e75]: 3 cuotas sin interés de $ 3.267
+            - link "Ver en la tienda" [ref=e76] [cursor=pointer]:
+              - /url: /tienda
+        - article [ref=e77]:
+          - link [ref=e79] [cursor=pointer]:
+            - /url: /producto/7
+            - img "Vestido Floral Primavera" [ref=e80]
+          - generic [ref=e81]:
+            - generic [ref=e82]: Destacado
+            - generic [ref=e83]: Niña (3-8)
+            - heading [level=3] [ref=e84]:
+              - link "Vestido Floral Primavera" [ref=e85] [cursor=pointer]:
+                - /url: /producto/7
+            - generic [ref=e86]: "Color: Rosa · Talla: 5"
+            - generic [ref=e88]:
+              - paragraph [ref=e89]: $ 20.900 20% menos
+              - generic [ref=e90]: $ 16.700
+              - paragraph [ref=e91]: 3 cuotas sin interés de $ 5.567
+            - link "Ver en la tienda" [ref=e92] [cursor=pointer]:
+              - /url: /tienda
+        - article [ref=e93]:
+          - link [ref=e95] [cursor=pointer]:
+            - /url: /producto/9
+            - img "Campera Rompeviento Deportiva" [ref=e96]
+          - generic [ref=e97]:
+            - generic [ref=e98]: Destacado
+            - generic [ref=e99]: Pre-teen (9-12)
+            - heading [level=3] [ref=e100]:
+              - link "Campera Rompeviento Deportiva" [ref=e101] [cursor=pointer]:
+                - /url: /producto/9
+            - generic [ref=e102]: "Color: Rojo · Talla: 10"
+            - generic [ref=e104]:
+              - paragraph [ref=e105]: $ 30.600 20% menos
+              - generic [ref=e106]: $ 24.500
+              - paragraph [ref=e107]: 3 cuotas sin interés de $ 8.167
+            - link "Ver en la tienda" [ref=e108] [cursor=pointer]:
+              - /url: /tienda
+      - heading "Otras secciones" [level=2] [ref=e109]
+      - generic [ref=e110]:
+        - link [ref=e111] [cursor=pointer]:
+          - /url: /tienda
+          - heading "Elegí tus prendas" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Filtrá por edad, color y precio, y sumá al carrito.
+        - link [ref=e114] [cursor=pointer]:
+          - /url: /checkout
+          - heading "Finalizá tu compra" [level=3] [ref=e115]
+          - paragraph [ref=e116]: Envíos a cualquier país y pago con tarjeta.
+        - link [ref=e117] [cursor=pointer]:
+          - /url: /creditos
+          - heading "Pagá en cuotas" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Financiá tu compra y hacé crecer tu límite.
+        - link [ref=e120] [cursor=pointer]:
+          - /url: /registro
+          - heading "Registrate" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Creá tu cuenta y recibí novedades.
+  - contentinfo [ref=e123]:
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - paragraph [ref=e126]: miniModa
+        - paragraph [ref=e127]: Ropa para niños, pensada para todos los días.
+        - paragraph [ref=e128]: "Medios de pago: tarjeta de crédito, débito y transferencia."
+        - paragraph [ref=e129]: Atención al cliente, de lunes a viernes, de 9 a 18 h.
+        - paragraph [ref=e130]: MiniModa · Ropa para niños. Tienda de demostración — datos ficticios, sin pagos reales.
+      - navigation "Tienda" [ref=e131]:
+        - heading "Tienda" [level=2] [ref=e132]
+        - list [ref=e133]:
+          - listitem [ref=e134]:
+            - link "Tienda" [ref=e135] [cursor=pointer]:
+              - /url: /tienda
+          - listitem [ref=e136]:
+            - link "Carrito" [ref=e137] [cursor=pointer]:
+              - /url: /carrito
+          - listitem [ref=e138]:
+            - link "Checkout" [ref=e139] [cursor=pointer]:
+              - /url: /checkout
+          - listitem [ref=e140]:
+            - link "Registro" [ref=e141] [cursor=pointer]:
+              - /url: /registro
+      - navigation "Ayuda" [ref=e142]:
+        - heading "Ayuda" [level=2] [ref=e143]
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Envíos" [ref=e146] [cursor=pointer]:
+              - /url: /legal/envios
+          - listitem [ref=e147]:
+            - link "Cambios y devoluciones" [ref=e148] [cursor=pointer]:
+              - /url: /legal/cambios
+          - listitem [ref=e149]:
+            - link "Créditos" [ref=e150] [cursor=pointer]:
+              - /url: /creditos
+          - listitem [ref=e151]:
+            - link "Bandeja" [ref=e152] [cursor=pointer]:
+              - /url: /bandeja
+      - navigation "Legal" [ref=e153]:
+        - heading "Legal" [level=2] [ref=e154]
+        - list [ref=e155]:
+          - listitem [ref=e156]:
+            - link "Términos y condiciones" [ref=e157] [cursor=pointer]:
+              - /url: /legal/terminos
+          - listitem [ref=e158]:
+            - link "Política de privacidad" [ref=e159] [cursor=pointer]:
+              - /url: /legal/privacidad
+          - listitem [ref=e160]:
+            - link "hola@minimoda.test" [ref=e161] [cursor=pointer]:
+              - /url: mailto:hola@minimoda.test
+        - paragraph [ref=e162]: Fotos de producto generadas para MiniModa.
+  - alert [ref=e163]
