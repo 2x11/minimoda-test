@@ -2,7 +2,7 @@
 
 | Severidad | Resultado |
 | --- | --- |
-| Alta | cayo |
+| Critica | cayo |
 
 ## Qué se probó
 

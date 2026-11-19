@@ -2,7 +2,7 @@
 
 | Severidad | Resultado |
 | --- | --- |
-| Alta | Resistió |
+| Media | Resistió |
 
 ## Qué se probó
 

@@ -2,7 +2,7 @@
 
 | Severidad | Resultado |
 | --- | --- |
-| Alta | Falló |
+| Alta | Cayó |
 
 ## Qué se probó
 
